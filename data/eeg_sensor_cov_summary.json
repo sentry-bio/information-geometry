@@ -1,0 +1,423 @@
+{
+  "subjects": [
+    {
+      "subject": "S001",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.32751211573627736,
+          "kappa_loge": 0.3245539446045086,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.2152613244527865,
+          "kappa_loge": 0.2188979076364912,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S002",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.20660021880317325,
+          "kappa_loge": 0.2071519273684593,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.24475692626372209,
+          "kappa_loge": 0.24351254970356406,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S003",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.29043898486988096,
+          "kappa_loge": 0.29121846232494386,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.17543836627762088,
+          "kappa_loge": 0.1838506712781383,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S004",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.09927029804423959,
+          "kappa_loge": 0.10143720735576006,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.30809195524252747,
+          "kappa_loge": 0.3122104095591649,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S005",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.4319476150559602,
+          "kappa_loge": 0.4324894301547572,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.42318904524450024,
+          "kappa_loge": 0.4226962933062901,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S006",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.31579758793002277,
+          "kappa_loge": 0.31292610607761673,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.31933400490342706,
+          "kappa_loge": 0.3187306061408849,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S007",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.15033674337361486,
+          "kappa_loge": 0.1527434326028722,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3434286540273358,
+          "kappa_loge": 0.34406553399323037,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S008",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.34260471319901487,
+          "kappa_loge": 0.34702655216377065,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.29997822192041557,
+          "kappa_loge": 0.2971694126514757,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S009",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3986225856686554,
+          "kappa_loge": 0.39677163886015154,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3310696430193689,
+          "kappa_loge": 0.32730395898026543,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S010",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.37360789180707005,
+          "kappa_loge": 0.37562650094254624,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.21220778800330536,
+          "kappa_loge": 0.203118685454854,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S011",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.25089665390391724,
+          "kappa_loge": 0.2581499368533954,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.19188408357621323,
+          "kappa_loge": 0.1901071837493311,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S012",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3347516226631342,
+          "kappa_loge": 0.33887703217708887,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3088552662722808,
+          "kappa_loge": 0.3120294555187397,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S013",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.30612286630818974,
+          "kappa_loge": 0.30413643833241427,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3092905428518638,
+          "kappa_loge": 0.31038742702965333,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S015",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.19799471315308415,
+          "kappa_loge": 0.1912920921551593,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.18967531801693677,
+          "kappa_loge": 0.18005459931928575,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S016",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.2873185884050362,
+          "kappa_loge": 0.28770197037733414,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.28028032446598683,
+          "kappa_loge": 0.2794556861892953,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S017",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.33556441630521167,
+          "kappa_loge": 0.3342941195680566,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.33908795282070847,
+          "kappa_loge": 0.3414138867738381,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S018",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3058856024084697,
+          "kappa_loge": 0.3037317146583147,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3319493153202836,
+          "kappa_loge": 0.3321249600036861,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S019",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.31977101790081974,
+          "kappa_loge": 0.3214478977560646,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.2709523910656988,
+          "kappa_loge": 0.2667690578180697,
+          "metric": "sensor_covariance"
+        }
+      ]
+    },
+    {
+      "subject": "S020",
+      "band": "alpha",
+      "pairs": [
+        {
+          "state": "EO",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.3002350186344862,
+          "kappa_loge": 0.31087691916241733,
+          "metric": "sensor_covariance"
+        },
+        {
+          "state": "EC",
+          "n_windows": 29,
+          "n_sensors": 64,
+          "kappa_airm": 0.1659868418021152,
+          "kappa_loge": 0.16177803762143983,
+          "metric": "sensor_covariance"
+        }
+      ]
+    }
+  ],
+  "band": "alpha"
+}

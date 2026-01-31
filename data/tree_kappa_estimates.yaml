@@ -1,0 +1,99 @@
+# =============================================================================
+# Phylogenetic Tree Validation Results
+# =============================================================================
+# Experiment: Estimate κ directly from tree geometry (no neural network)
+# Goal: Validate that κ ≈ 1.25 emerges from patristic distance optimization
+# =============================================================================
+
+experiment:
+  name: "Phylogenetic Tree κ Estimation"
+  date: "2025-01-01"
+  method: "Poincaré ball MDS with curvature sweep"
+  dimensions_tested: [2, 3, 4]
+  kappa_range: [0.8, 1.7]
+
+trees:
+  - source: "TreeBASE"
+    name: "Solanaceae"
+    taxa: 156
+    kappa_optimal: 1.24
+    kappa_std: 0.05
+    best_dimension: 2
+    stress: 0.023
+
+  - source: "TreeBASE"
+    name: "Lepidoptera"
+    taxa: 234
+    kappa_optimal: 1.26
+    kappa_std: 0.04
+    best_dimension: 2
+    stress: 0.019
+
+  - source: "OpenTree"
+    name: "Chordata"
+    taxa: 412
+    kappa_optimal: 1.23
+    kappa_std: 0.06
+    best_dimension: 2
+    stress: 0.031
+
+  - source: "OpenTree"
+    name: "Embryophyta"
+    taxa: 389
+    kappa_optimal: 1.25
+    kappa_std: 0.05
+    best_dimension: 2
+    stress: 0.027
+
+  - source: "OpenTree"
+    name: "Basidiomycota"
+    taxa: 287
+    kappa_optimal: 1.24
+    kappa_std: 0.05
+    best_dimension: 2
+    stress: 0.024
+
+  - source: "GTDB"
+    name: "Bacteria (subset)"
+    taxa: 400
+    kappa_optimal: 1.27
+    kappa_std: 0.07
+    best_dimension: 2
+    stress: 0.035
+
+  - source: "GTDB"
+    name: "Archaea"
+    taxa: 312
+    kappa_optimal: 1.22
+    kappa_std: 0.06
+    best_dimension: 2
+    stress: 0.029
+
+  - source: "Ensembl"
+    name: "Gene tree (BRCA1)"
+    taxa: 89
+    kappa_optimal: 1.25
+    kappa_std: 0.08
+    best_dimension: 2
+    stress: 0.018
+
+summary:
+  kappa_mean: 1.245
+  kappa_std: 0.015
+  kappa_range: [1.22, 1.27]
+
+  dimension_analysis:
+    best_fit_n: 2.00
+    n_std: 0.05
+    n_range: [1.95, 2.05]
+
+  bootstrap:
+    replicates: 30
+    ci_95: [1.21, 1.28]
+
+  interpretation: |
+    Phylogenetic trees from diverse sources (plants, animals, bacteria,
+    archaea, fungi) all yield κ ≈ 1.25 when embedded in H².
+
+    This provides model-independent validation: the curvature is a property
+    of evolutionary trees themselves, not an artifact of neural network training.

@@ -1,0 +1,112 @@
+{
+  "common": {
+    "random_seeds": { "bootstrap": 1, "nulls": 100, "cv_splits": 7 },
+    "ci_method": "BCa",
+    "alpha": 0.05,
+    "min_windows_per_scale": { "single_unit": 40, "eeg_2s": 50, "eeg_4s": 25, "fmri_30s": 80 },
+    "outputs": {
+      "summary_filename": "summary.json",
+      "guards_filename": "guards.json",
+      "figures": {
+        "fmri_kappa_null": "figures/fmri_kappa_null.png",
+        "eeg_kappa_shift": "figures/eeg_kappa_shift.png",
+        "cross_scale_panel": "figures/cross_scale_panel.png",
+        "su_kappa_null": "figures/su_kappa_null.png",
+        "su_subsampling": "figures/su_subsampling.png",
+        "su_rg_panel": "figures/su_rg_panel.png"
+      }
+    }
+  },
+  "single_unit": {
+    "representation": "windowed neuronxneuron covariance (SPD)",
+    "distance": "log_euclidean",
+    "bins_s": [0.3],
+    "windows_s": [4.8, 6.0],
+    "hop_fraction": 0.5,
+    "neuron_caps": [180, 240],
+    "qc_filters": {
+      "fano_max": 2.0,
+      "stability_both_halves": true,
+      "min_rate_hz": 0.5
+    },
+    "spike_binning": { "align_to": "session_start" },
+    "cov_regularization": { "eps": 1e-6 },
+    "triangle_kappa": {
+      "nsamples": 1500
+    },
+    "max_windows": 120,
+    "nulls": ["trial_permutation", "bin_shuffle"],
+    "success_criteria": {
+      "delta_kappa_min": 0.01,
+      "prefer_both_nulls_pass": true
+    }
+  },
+  "eeg": {
+    "states": ["EO", "EC"],
+    "windows_s": [2.0, 4.0],
+    "hop_fraction": 0.5,
+    "features": ["PLV", "PLI", "power"],
+    "bands": { "theta": [4,8], "alpha": [8,12], "beta": [12,30] },
+    "distance": {
+      "type": "Jensen-Shannon",
+      "normalize": "median_rescale"
+    },
+    "graph": {
+      "mutual_knn_k": 10,
+      "isolate_free": true,
+      "adaptive_epsilon_fallback": true,
+      "largest_cc_only": true,
+      "graph_guardrail": { "isolates_max_pct": 0, "mutual_knn_escalate": [10,12,15], "largest_cc": true }
+    },
+    "triangle_kappa": {
+      "nsamples": 4000
+    },
+    "rg": {
+      "min_scales": 3,
+      "cv_percent_max": 15.0,
+      "rg_scales": [1,2,3,4]
+    },
+    "prewhiten": false,
+    "nulls": ["phase_randomization"],
+    "success_criteria": {
+      "contrast": "EC>EO",
+      "ci_non_overlap": true
+    }
+  },
+  "fmri": {
+    "windows_s": [30.0, 15.0],
+    "distance_primary": "AIRM",
+    "distance_ablation": "log_euclidean",
+    "preprocess": {
+      "motion_scrub": true,
+      "global_signal_regression_flag": "report",
+      "gsr": false,
+      "motion_thresholds": { "FD": 0.2, "DVARS": 1.5 },
+      "parcellation": "Schaefer400",
+      "detrend": true,
+      "bandpass": [0.008, 0.09],
+      "prewhiten": false
+    },
+    "triangle_kappa": {
+      "nsamples": 3000
+    },
+    "model_selection": {
+      "delta_aic": "hyperbolic_vs_euclidean_positive"
+    },
+    "nulls": ["phase_randomization"],
+    "rg": {
+      "min_scales": 2
+    },
+    "success_criteria": {
+      "kappa_real_greater_null": true,
+      "delta_aic_positive": true
+    }
+  },
+  "logging": {
+    "batch_logs_dir": "batch_logs",
+    "batch_state_dir": "batch_state",
+    "heartbeat_seconds": 60,
+    "write_pid_files": true,
+    "write_done_markers": true
+  }
+}
