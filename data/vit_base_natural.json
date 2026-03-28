@@ -1,0 +1,116 @@
+{
+  "vit_base": {
+    "spec": {
+      "hf_name": "google/vit-base-patch16-224",
+      "type": "vision",
+      "class": "ViTModel",
+      "n_layers": 12,
+      "hidden_dim": 768,
+      "params": "86M",
+      "pooling": "cls_token"
+    },
+    "layers": {
+      "1": {
+        "n_covs": 46,
+        "pca_dim": 64,
+        "pca_explained": 0.9714,
+        "kappa": 0.4864,
+        "kappa_ci": [
+          0.4856,
+          0.4871
+        ],
+        "h_vol_bits": 1.8049,
+        "h_vol_nats": 1.2511,
+        "h_predicted_n2_bits": 1.0061,
+        "n_implied": 2.794,
+        "volume_entropy_detail": {
+          "h_vol_nats": 1.2510519901617152,
+          "h_vol_bits": 1.8048865021005749,
+          "h_vol_std": 0.27738077780944576,
+          "n_good_fits": 46
+        }
+      },
+      "3": {
+        "n_covs": 46,
+        "pca_dim": 64,
+        "pca_explained": 0.8266,
+        "kappa": 0.4841,
+        "kappa_ci": [
+          0.4833,
+          0.485
+        ],
+        "h_vol_bits": 1.1031,
+        "h_vol_nats": 0.7646,
+        "h_predicted_n2_bits": 1.0038,
+        "n_implied": 2.099,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.7645858361158453,
+          "h_vol_bits": 1.1030641940982717,
+          "h_vol_std": 0.2126457512456672,
+          "n_good_fits": 46
+        }
+      },
+      "6": {
+        "n_covs": 46,
+        "pca_dim": 64,
+        "pca_explained": 0.8076,
+        "kappa": 0.487,
+        "kappa_ci": [
+          0.4862,
+          0.4877
+        ],
+        "h_vol_bits": 1.2136,
+        "h_vol_nats": 0.8412,
+        "h_predicted_n2_bits": 1.0068,
+        "n_implied": 2.205,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.8411903436170332,
+          "h_vol_bits": 1.213581137179977,
+          "h_vol_std": 0.1732415772725796,
+          "n_good_fits": 46
+        }
+      },
+      "9": {
+        "n_covs": 46,
+        "pca_dim": 64,
+        "pca_explained": 0.8485,
+        "kappa": 0.4864,
+        "kappa_ci": [
+          0.4856,
+          0.4871
+        ],
+        "h_vol_bits": 1.092,
+        "h_vol_nats": 0.7569,
+        "h_predicted_n2_bits": 1.0062,
+        "n_implied": 2.085,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.7568890910285051,
+          "h_vol_bits": 1.0919601381297797,
+          "h_vol_std": 0.1617532597924813,
+          "n_good_fits": 46
+        }
+      },
+      "12": {
+        "n_covs": 46,
+        "pca_dim": 64,
+        "pca_explained": 0.8891,
+        "kappa": 0.486,
+        "kappa_ci": [
+          0.4851,
+          0.4868
+        ],
+        "h_vol_bits": 1.0071,
+        "h_vol_nats": 0.698,
+        "h_predicted_n2_bits": 1.0058,
+        "n_implied": 2.001,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.6980359039090982,
+          "h_vol_bits": 1.007052936932101,
+          "h_vol_std": 0.14570590016396306,
+          "n_good_fits": 46
+        }
+      }
+    },
+    "elapsed_s": 75.4
+  }
+}
