@@ -1,0 +1,71 @@
+# =============================================================================
+# Information Geometry: Canonical Constants (Neural & AI Domains)
+# =============================================================================
+# Paper II of the Hyperbolic Trilogy.
+# κ = (h ln 2 / (n − 1))²
+# =============================================================================
+
+state_equation:
+  form: "kappa = (h * ln2 / (n - 1))^2"
+  manning_formula: "h_vol = (n - 1) * sqrt(kappa)  [nats]"
+  free_parameters: 0
+
+# -----------------------------------------------------------------------------
+# Neural domains
+# -----------------------------------------------------------------------------
+neuropixels:
+  system: "Steinmetz Neuropixels (39 sessions, 180 neurons Fano-filtered)"
+  manifold: "SPD(180), Log-Euclidean distance"
+  kappa: { value: 0.485, std: 0.005 }
+  h_vol: { value_bits: 1.04, std_bits: 0.36, method: "volume entropy (geodesic ball growth)" }
+  n_implied: { value: 2.032, std: 0.359, median: 2.057, p_vs_2: 0.590 }
+  brain_region_correlation: { spearman_rho: 0.362, p: 0.023 }
+
+fmri:
+  system: "ABIDE Pitt (20 subjects, cc200, 200 ROIs)"
+  kappa_airm: { value: 0.494, std: 0.001 }
+
+eeg:
+  system: "EEGBCI (19 subjects, 64 sensors)"
+  kappa_broadband: { range: [0.44, 0.48] }
+  consciousness_state: { eyes_open_gt_eyes_closed: true, p: "<0.001" }
+
+# -----------------------------------------------------------------------------
+# AI domains
+# -----------------------------------------------------------------------------
+gpt2:
+  system: "GPT-2 (124M, autoregressive)"
+  kappa: 0.348
+  robustness: { pca_range: [0.305, 0.365], layer_range: [0.336, 0.359] }
+  representation_principle: { spd: 0.348, cosine: 0.091 }
+
+vit_base:
+  system: "ViT-Base (86M, vision encoder, CLS token)"
+  kappa_plateau: 0.270
+  kappa_layer_1: 0.523
+  null_controls: { shuffle: 0.07, whiten: 0.91 }
+
+# -----------------------------------------------------------------------------
+# Frozen pipeline parameters
+# -----------------------------------------------------------------------------
+calibration:
+  single_unit:
+    bin_s: 0.3
+    window_s: 2.4
+    hop_s: 0.6
+    neuron_cap: 180
+    fano_max: 2.0
+    regularization: 1.0e-6
+    bootstrap_replicates: 500
+    triangle_samples: 2000
+  fmri:
+    parcellation: "cc200"
+    n_rois: 200
+    window_s: 30
+    bandpass: [0.01, 0.1]
+
+metadata:
+  version: "2.0.0"
+  last_updated: "2026-03-28"
+  authors: ["Fenn, R.", "Fenn, A."]
+  license: "MIT"
