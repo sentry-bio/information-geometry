@@ -1,0 +1,304 @@
+{
+  "gpt2": {
+    "spec": {
+      "hf_name": "gpt2",
+      "type": "causal_lm",
+      "class": "GPT2Model",
+      "n_layers": 12,
+      "hidden_dim": 768,
+      "params": "124M",
+      "pooling": "all_tokens"
+    },
+    "layers": {
+      "1": {
+        "n_covs": 179,
+        "pca_dim": 64,
+        "pca_explained": 0.9212,
+        "kappa": 0.4339,
+        "kappa_ci": [
+          0.4311,
+          0.446
+        ],
+        "h_vol_bits": 2.1687,
+        "h_vol_nats": 1.5032,
+        "h_predicted_n2_bits": 0.9503,
+        "n_implied": 3.282,
+        "volume_entropy_detail": {
+          "h_vol_nats": 1.503232870048099,
+          "h_vol_bits": 2.168706606919676,
+          "h_vol_std": 0.6825459197584353,
+          "n_good_fits": 50
+        }
+      },
+      "3": {
+        "n_covs": 179,
+        "pca_dim": 64,
+        "pca_explained": 0.9967,
+        "kappa": 0.3939,
+        "kappa_ci": [
+          0.3881,
+          0.3982
+        ],
+        "h_vol_bits": 1.3736,
+        "h_vol_nats": 0.9521,
+        "h_predicted_n2_bits": 0.9055,
+        "n_implied": 2.517,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.9520879269147404,
+          "h_vol_bits": 1.3735725306501498,
+          "h_vol_std": 0.658333009846964,
+          "n_good_fits": 50
+        }
+      },
+      "6": {
+        "n_covs": 179,
+        "pca_dim": 64,
+        "pca_explained": 0.9943,
+        "kappa": 0.4118,
+        "kappa_ci": [
+          0.4077,
+          0.4148
+        ],
+        "h_vol_bits": 1.1136,
+        "h_vol_nats": 0.7719,
+        "h_predicted_n2_bits": 0.9258,
+        "n_implied": 2.203,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.7718675762642663,
+          "h_vol_bits": 1.1135695244994408,
+          "h_vol_std": 0.3878863828991902,
+          "n_good_fits": 50
+        }
+      },
+      "9": {
+        "n_covs": 179,
+        "pca_dim": 64,
+        "pca_explained": 0.9891,
+        "kappa": 0.4127,
+        "kappa_ci": [
+          0.4104,
+          0.418
+        ],
+        "h_vol_bits": 0.9668,
+        "h_vol_nats": 0.6701,
+        "h_predicted_n2_bits": 0.9268,
+        "n_implied": 2.043,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.6701117657311451,
+          "h_vol_bits": 0.9667669212616699,
+          "h_vol_std": 0.4934862303472241,
+          "n_good_fits": 50
+        }
+      },
+      "12": {
+        "n_covs": 179,
+        "pca_dim": 64,
+        "pca_explained": 0.9971,
+        "kappa": 0.4373,
+        "kappa_ci": [
+          0.4362,
+          0.4398
+        ],
+        "h_vol_bits": 1.8363,
+        "h_vol_nats": 1.2728,
+        "h_predicted_n2_bits": 0.9541,
+        "n_implied": 2.925,
+        "volume_entropy_detail": {
+          "h_vol_nats": 1.2728035182634274,
+          "h_vol_bits": 1.836267323824672,
+          "h_vol_std": 0.4194775087784146,
+          "n_good_fits": 50
+        }
+      }
+    },
+    "elapsed_s": 74.3
+  },
+  "bert": {
+    "spec": {
+      "hf_name": "bert-base-uncased",
+      "type": "masked_lm",
+      "class": "BertModel",
+      "n_layers": 12,
+      "hidden_dim": 768,
+      "params": "110M",
+      "pooling": "all_tokens"
+    },
+    "layers": {
+      "1": {
+        "n_covs": 180,
+        "pca_dim": 64,
+        "pca_explained": 0.8257,
+        "kappa": 0.4102,
+        "kappa_ci": [
+          0.406,
+          0.4141
+        ],
+        "h_vol_bits": 1.809,
+        "h_vol_nats": 1.2539,
+        "h_predicted_n2_bits": 0.924,
+        "n_implied": 2.958,
+        "volume_entropy_detail": {
+          "h_vol_nats": 1.2538833516615486,
+          "h_vol_bits": 1.8089712932953483,
+          "h_vol_std": 0.18923312616380608,
+          "n_good_fits": 50
+        }
+      },
+      "3": {
+        "n_covs": 180,
+        "pca_dim": 64,
+        "pca_explained": 0.827,
+        "kappa": 0.3995,
+        "kappa_ci": [
+          0.3948,
+          0.4041
+        ],
+        "h_vol_bits": 1.5738,
+        "h_vol_nats": 1.0909,
+        "h_predicted_n2_bits": 0.9119,
+        "n_implied": 2.726,
+        "volume_entropy_detail": {
+          "h_vol_nats": 1.090900860477851,
+          "h_vol_bits": 1.5738372615128986,
+          "h_vol_std": 0.12567663796297354,
+          "n_good_fits": 50
+        }
+      },
+      "6": {
+        "n_covs": 180,
+        "pca_dim": 64,
+        "pca_explained": 0.812,
+        "kappa": 0.4025,
+        "kappa_ci": [
+          0.3987,
+          0.4061
+        ],
+        "h_vol_bits": 0.9603,
+        "h_vol_nats": 0.6656,
+        "h_predicted_n2_bits": 0.9153,
+        "n_implied": 2.049,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.6656258362673635,
+          "h_vol_bits": 0.9602950930704944,
+          "h_vol_std": 0.046416586230805454,
+          "n_good_fits": 50
+        }
+      },
+      "9": {
+        "n_covs": 180,
+        "pca_dim": 64,
+        "pca_explained": 0.8168,
+        "kappa": 0.3927,
+        "kappa_ci": [
+          0.3862,
+          0.3982
+        ],
+        "h_vol_bits": 0.7198,
+        "h_vol_nats": 0.4989,
+        "h_predicted_n2_bits": 0.9041,
+        "n_implied": 1.796,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.4989216539695961,
+          "h_vol_bits": 0.7197917959740557,
+          "h_vol_std": 0.054749947121649885,
+          "n_good_fits": 50
+        }
+      },
+      "12": {
+        "n_covs": 180,
+        "pca_dim": 64,
+        "pca_explained": 0.8228,
+        "kappa": 0.3496,
+        "kappa_ci": [
+          0.3412,
+          0.3588
+        ],
+        "h_vol_bits": 0.5415,
+        "h_vol_nats": 0.3753,
+        "h_predicted_n2_bits": 0.853,
+        "n_implied": 1.635,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.375307731135438,
+          "h_vol_bits": 0.5414546025163849,
+          "h_vol_std": 0.054645996203296125,
+          "n_good_fits": 50
+        }
+      }
+    },
+    "elapsed_s": 73.1
+  },
+  "distilgpt2": {
+    "spec": {
+      "hf_name": "distilgpt2",
+      "type": "causal_lm",
+      "class": "GPT2Model",
+      "n_layers": 6,
+      "hidden_dim": 768,
+      "params": "82M",
+      "pooling": "all_tokens"
+    },
+    "layers": {
+      "1": {
+        "n_covs": 179,
+        "pca_dim": 64,
+        "pca_explained": 0.9436,
+        "kappa": 0.4216,
+        "kappa_ci": [
+          0.417,
+          0.4241
+        ],
+        "h_vol_bits": 1.6658,
+        "h_vol_nats": 1.1546,
+        "h_predicted_n2_bits": 0.9368,
+        "n_implied": 2.778,
+        "volume_entropy_detail": {
+          "h_vol_nats": 1.154625907610746,
+          "h_vol_bits": 1.6657730709919416,
+          "h_vol_std": 1.5263669279304004,
+          "n_good_fits": 50
+        }
+      },
+      "3": {
+        "n_covs": 179,
+        "pca_dim": 64,
+        "pca_explained": 0.9904,
+        "kappa": 0.3982,
+        "kappa_ci": [
+          0.3972,
+          0.4008
+        ],
+        "h_vol_bits": 1.0502,
+        "h_vol_nats": 0.728,
+        "h_predicted_n2_bits": 0.9103,
+        "n_implied": 2.154,
+        "volume_entropy_detail": {
+          "h_vol_nats": 0.7279641364859248,
+          "h_vol_bits": 1.0502302496532603,
+          "h_vol_std": 0.6172848162754586,
+          "n_good_fits": 50
+        }
+      },
+      "6": {
+        "n_covs": 179,
+        "pca_dim": 64,
+        "pca_explained": 0.9941,
+        "kappa": 0.4244,
+        "kappa_ci": [
+          0.4176,
+          0.4258
+        ],
+        "h_vol_bits": 1.506,
+        "h_vol_nats": 1.0439,
+        "h_predicted_n2_bits": 0.9399,
+        "n_implied": 2.602,
+        "volume_entropy_detail": {
+          "h_vol_nats": 1.0438575907983485,
+          "h_vol_bits": 1.5059681696390783,
+          "h_vol_std": 0.24842548859670366,
+          "n_good_fits": 50
+        }
+      }
+    },
+    "elapsed_s": 46.0
+  }
+}

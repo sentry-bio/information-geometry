@@ -1,0 +1,1337 @@
+{
+  "experiment": "volume_entropy_full39",
+  "config": {
+    "window_s": 2.4,
+    "hop_s": 0.6,
+    "bin_s": 0.3,
+    "neuron_cap": 180,
+    "fano_max": 2.0
+  },
+  "n_sessions_total": 39,
+  "n_sessions_valid": 39,
+  "results": [
+    {
+      "session": "steinmetz_session_1",
+      "mouse": "Cori",
+      "date": "2016-12-14",
+      "n_neurons_total": 734,
+      "n_neurons_selected": 180,
+      "n_trials": 214,
+      "duration_s": 535.0,
+      "n_windows": 888,
+      "mean_firing_rate": 25.97,
+      "region_info": {
+        "hierarchical_frac": 0.372,
+        "recurrent_frac": 0.4,
+        "subcortical_frac": 0.2,
+        "dominant_type": "mixed",
+        "n_areas": 8,
+        "top_areas": {
+          "VISp": 40,
+          "SUB": 38,
+          "LS": 36,
+          "CA3": 20,
+          "ACA": 15
+        }
+      },
+      "kappa": 0.4867,
+      "kappa_ci": [
+        0.4862,
+        0.4872
+      ],
+      "h_vol_bits": 1.0143,
+      "h_predicted_n2": 1.0065,
+      "n_implied": 2.008,
+      "elapsed_s": 26.9
+    },
+    {
+      "session": "steinmetz_session_10",
+      "mouse": "Hench",
+      "date": "2017-06-17",
+      "n_neurons_total": 1172,
+      "n_neurons_selected": 180,
+      "n_trials": 447,
+      "duration_s": 1117.5,
+      "n_windows": 1859,
+      "mean_firing_rate": 34.65,
+      "region_info": {
+        "hierarchical_frac": 0.133,
+        "recurrent_frac": 0.3,
+        "subcortical_frac": 0.539,
+        "dominant_type": "subcortical",
+        "n_areas": 13,
+        "top_areas": {
+          "MB": 51,
+          "POL": 42,
+          "MRN": 23,
+          "VISp": 14,
+          "SCm": 9
+        }
+      },
+      "kappa": 0.4826,
+      "kappa_ci": [
+        0.4818,
+        0.4832
+      ],
+      "h_vol_bits": 0.751,
+      "h_predicted_n2": 1.0022,
+      "n_implied": 1.749,
+      "elapsed_s": 77.5
+    },
+    {
+      "session": "steinmetz_session_11",
+      "mouse": "Hench",
+      "date": "2017-06-18",
+      "n_neurons_total": 857,
+      "n_neurons_selected": 180,
+      "n_trials": 342,
+      "duration_s": 855.0,
+      "n_windows": 1422,
+      "mean_firing_rate": 27.58,
+      "region_info": {
+        "hierarchical_frac": 0.617,
+        "recurrent_frac": 0.0,
+        "subcortical_frac": 0.372,
+        "dominant_type": "hierarchical",
+        "n_areas": 6,
+        "top_areas": {
+          "MOp": 111,
+          "CP": 41,
+          "PT": 15,
+          "LSc": 9,
+          "LSr": 2
+        }
+      },
+      "kappa": 0.4814,
+      "kappa_ci": [
+        0.4807,
+        0.4822
+      ],
+      "h_vol_bits": 0.8586,
+      "h_predicted_n2": 1.001,
+      "n_implied": 1.858,
+      "elapsed_s": 50.1
+    },
+    {
+      "session": "steinmetz_session_12",
+      "mouse": "Lederberg",
+      "date": "2017-12-05",
+      "n_neurons_total": 698,
+      "n_neurons_selected": 180,
+      "n_trials": 340,
+      "duration_s": 850.0,
+      "n_windows": 1413,
+      "mean_firing_rate": 31.33,
+      "region_info": {
+        "hierarchical_frac": 0.15,
+        "recurrent_frac": 0.733,
+        "subcortical_frac": 0.044,
+        "dominant_type": "recurrent",
+        "n_areas": 11,
+        "top_areas": {
+          "MD": 70,
+          "SUB": 30,
+          "DG": 21,
+          "VISam": 21,
+          "root": 13
+        }
+      },
+      "kappa": 0.4901,
+      "kappa_ci": [
+        0.4897,
+        0.4905
+      ],
+      "h_vol_bits": 1.5696,
+      "h_predicted_n2": 1.01,
+      "n_implied": 2.554,
+      "elapsed_s": 53.5
+    },
+    {
+      "session": "steinmetz_session_13",
+      "mouse": "Lederberg",
+      "date": "2017-12-06",
+      "n_neurons_total": 983,
+      "n_neurons_selected": 180,
+      "n_trials": 300,
+      "duration_s": 750.0,
+      "n_windows": 1247,
+      "mean_firing_rate": 58.47,
+      "region_info": {
+        "hierarchical_frac": 0.061,
+        "recurrent_frac": 0.239,
+        "subcortical_frac": 0.617,
+        "dominant_type": "subcortical",
+        "n_areas": 15,
+        "top_areas": {
+          "LGd": 33,
+          "RN": 32,
+          "MRN": 27,
+          "MB": 22,
+          "root": 15
+        }
+      },
+      "kappa": 0.4786,
+      "kappa_ci": [
+        0.4775,
+        0.4795
+      ],
+      "h_vol_bits": 0.5428,
+      "h_predicted_n2": 0.998,
+      "n_implied": 1.544,
+      "elapsed_s": 43.8
+    },
+    {
+      "session": "steinmetz_session_14",
+      "mouse": "Lederberg",
+      "date": "2017-12-07",
+      "n_neurons_total": 756,
+      "n_neurons_selected": 180,
+      "n_trials": 268,
+      "duration_s": 670.0,
+      "n_windows": 1113,
+      "mean_firing_rate": 22.12,
+      "region_info": {
+        "hierarchical_frac": 0.233,
+        "recurrent_frac": 0.317,
+        "subcortical_frac": 0.422,
+        "dominant_type": "subcortical",
+        "n_areas": 9,
+        "top_areas": {
+          "MRN": 42,
+          "ORB": 37,
+          "MOs": 31,
+          "SCm": 21,
+          "CA1": 20
+        }
+      },
+      "kappa": 0.4728,
+      "kappa_ci": [
+        0.4716,
+        0.4741
+      ],
+      "h_vol_bits": 0.3748,
+      "h_predicted_n2": 0.992,
+      "n_implied": 1.378,
+      "elapsed_s": 36.7
+    },
+    {
+      "session": "steinmetz_session_15",
+      "mouse": "Lederberg",
+      "date": "2017-12-08",
+      "n_neurons_total": 743,
+      "n_neurons_selected": 180,
+      "n_trials": 404,
+      "duration_s": 1010.0,
+      "n_windows": 1680,
+      "mean_firing_rate": 29.2,
+      "region_info": {
+        "hierarchical_frac": 0.0,
+        "recurrent_frac": 0.261,
+        "subcortical_frac": 0.583,
+        "dominant_type": "subcortical",
+        "n_areas": 8,
+        "top_areas": {
+          "GPe": 60,
+          "ZI": 30,
+          "root": 24,
+          "LGd": 24,
+          "VPM": 22
+        }
+      },
+      "kappa": 0.4877,
+      "kappa_ci": [
+        0.4872,
+        0.4882
+      ],
+      "h_vol_bits": 1.4451,
+      "h_predicted_n2": 1.0075,
+      "n_implied": 2.434,
+      "elapsed_s": 71.2
+    },
+    {
+      "session": "steinmetz_session_16",
+      "mouse": "Lederberg",
+      "date": "2017-12-09",
+      "n_neurons_total": 474,
+      "n_neurons_selected": 180,
+      "n_trials": 280,
+      "duration_s": 700.0,
+      "n_windows": 1163,
+      "mean_firing_rate": 16.52,
+      "region_info": {
+        "hierarchical_frac": 0.189,
+        "recurrent_frac": 0.211,
+        "subcortical_frac": 0.222,
+        "dominant_type": "mixed",
+        "n_areas": 6,
+        "top_areas": {
+          "TH": 68,
+          "MB": 40,
+          "SSs": 30,
+          "LGd": 28,
+          "CA3": 10
+        }
+      },
+      "kappa": 0.4884,
+      "kappa_ci": [
+        0.4879,
+        0.4888
+      ],
+      "h_vol_bits": 1.2082,
+      "h_predicted_n2": 1.0082,
+      "n_implied": 2.198,
+      "elapsed_s": 41.1
+    },
+    {
+      "session": "steinmetz_session_17",
+      "mouse": "Lederberg",
+      "date": "2017-12-10",
+      "n_neurons_total": 565,
+      "n_neurons_selected": 180,
+      "n_trials": 224,
+      "duration_s": 560.0,
+      "n_windows": 930,
+      "mean_firing_rate": 17.81,
+      "region_info": {
+        "hierarchical_frac": 0.0,
+        "recurrent_frac": 0.361,
+        "subcortical_frac": 0.0,
+        "dominant_type": "mixed",
+        "n_areas": 6,
+        "top_areas": {
+          "root": 70,
+          "VPL": 29,
+          "RT": 28,
+          "VPM": 25,
+          "MEA": 17
+        }
+      },
+      "kappa": 0.4864,
+      "kappa_ci": [
+        0.4858,
+        0.487
+      ],
+      "h_vol_bits": 1.3477,
+      "h_predicted_n2": 1.0062,
+      "n_implied": 2.339,
+      "elapsed_s": 29.1
+    },
+    {
+      "session": "steinmetz_session_18",
+      "mouse": "Lederberg",
+      "date": "2017-12-11",
+      "n_neurons_total": 1089,
+      "n_neurons_selected": 180,
+      "n_trials": 316,
+      "duration_s": 790.0,
+      "n_windows": 1313,
+      "mean_firing_rate": 26.18,
+      "region_info": {
+        "hierarchical_frac": 0.0,
+        "recurrent_frac": 0.083,
+        "subcortical_frac": 0.433,
+        "dominant_type": "subcortical",
+        "n_areas": 10,
+        "top_areas": {
+          "SNr": 40,
+          "TH": 37,
+          "ZI": 33,
+          "root": 20,
+          "SI": 17
+        }
+      },
+      "kappa": 0.4843,
+      "kappa_ci": [
+        0.4837,
+        0.4849
+      ],
+      "h_vol_bits": 1.2435,
+      "h_predicted_n2": 1.004,
+      "n_implied": 2.239,
+      "elapsed_s": 48.2
+    },
+    {
+      "session": "steinmetz_session_19",
+      "mouse": "Moniz",
+      "date": "2017-05-15",
+      "n_neurons_total": 606,
+      "n_neurons_selected": 180,
+      "n_trials": 247,
+      "duration_s": 617.5,
+      "n_windows": 1026,
+      "mean_firing_rate": 43.12,
+      "region_info": {
+        "hierarchical_frac": 0.122,
+        "recurrent_frac": 0.361,
+        "subcortical_frac": 0.0,
+        "dominant_type": "mixed",
+        "n_areas": 9,
+        "top_areas": {
+          "APN": 91,
+          "SUB": 28,
+          "CA1": 18,
+          "VISam": 14,
+          "LP": 11
+        }
+      },
+      "kappa": 0.4884,
+      "kappa_ci": [
+        0.4879,
+        0.4889
+      ],
+      "h_vol_bits": 1.2674,
+      "h_predicted_n2": 1.0083,
+      "n_implied": 2.257,
+      "elapsed_s": 31.0
+    },
+    {
+      "session": "steinmetz_session_2",
+      "mouse": "Cori",
+      "date": "2016-12-17",
+      "n_neurons_total": 1070,
+      "n_neurons_selected": 180,
+      "n_trials": 251,
+      "duration_s": 627.5,
+      "n_windows": 1042,
+      "mean_firing_rate": 25.08,
+      "region_info": {
+        "hierarchical_frac": 0.456,
+        "recurrent_frac": 0.117,
+        "subcortical_frac": 0.0,
+        "dominant_type": "hierarchical",
+        "n_areas": 5,
+        "top_areas": {
+          "POST": 52,
+          "VISpm": 47,
+          "VISl": 35,
+          "root": 25,
+          "CA1": 21
+        }
+      },
+      "kappa": 0.4894,
+      "kappa_ci": [
+        0.489,
+        0.4898
+      ],
+      "h_vol_bits": 1.4503,
+      "h_predicted_n2": 1.0093,
+      "n_implied": 2.437,
+      "elapsed_s": 33.6
+    },
+    {
+      "session": "steinmetz_session_20",
+      "mouse": "Moniz",
+      "date": "2017-05-16",
+      "n_neurons_total": 899,
+      "n_neurons_selected": 180,
+      "n_trials": 235,
+      "duration_s": 587.5,
+      "n_windows": 976,
+      "mean_firing_rate": 33.13,
+      "region_info": {
+        "hierarchical_frac": 0.022,
+        "recurrent_frac": 0.444,
+        "subcortical_frac": 0.0,
+        "dominant_type": "recurrent",
+        "n_areas": 10,
+        "top_areas": {
+          "LGd": 46,
+          "MG": 39,
+          "TH": 37,
+          "SUB": 17,
+          "SPF": 11
+        }
+      },
+      "kappa": 0.4915,
+      "kappa_ci": [
+        0.4912,
+        0.4919
+      ],
+      "h_vol_bits": 1.6672,
+      "h_predicted_n2": 1.0115,
+      "n_implied": 2.648,
+      "elapsed_s": 30.9
+    },
+    {
+      "session": "steinmetz_session_21",
+      "mouse": "Moniz",
+      "date": "2017-05-18",
+      "n_neurons_total": 578,
+      "n_neurons_selected": 180,
+      "n_trials": 124,
+      "duration_s": 310.0,
+      "n_windows": 513,
+      "mean_firing_rate": 43.48,
+      "region_info": {
+        "hierarchical_frac": 0.528,
+        "recurrent_frac": 0.211,
+        "subcortical_frac": 0.0,
+        "dominant_type": "hierarchical",
+        "n_areas": 5,
+        "top_areas": {
+          "SSp": 51,
+          "VAL": 46,
+          "MOp": 44,
+          "LD": 38,
+          "root": 1
+        }
+      },
+      "kappa": 0.4865,
+      "kappa_ci": [
+        0.4859,
+        0.487
+      ],
+      "h_vol_bits": 0.9558,
+      "h_predicted_n2": 1.0062,
+      "n_implied": 1.95,
+      "elapsed_s": 14.3
+    },
+    {
+      "session": "steinmetz_session_22",
+      "mouse": "Muller",
+      "date": "2017-01-07",
+      "n_neurons_total": 646,
+      "n_neurons_selected": 180,
+      "n_trials": 444,
+      "duration_s": 1110.0,
+      "n_windows": 1847,
+      "mean_firing_rate": 29.34,
+      "region_info": {
+        "hierarchical_frac": 0.244,
+        "recurrent_frac": 0.089,
+        "subcortical_frac": 0.439,
+        "dominant_type": "subcortical",
+        "n_areas": 10,
+        "top_areas": {
+          "MRN": 75,
+          "IC": 24,
+          "MOs": 17,
+          "PL": 16,
+          "ACB": 13
+        }
+      },
+      "kappa": 0.4828,
+      "kappa_ci": [
+        0.4821,
+        0.4836
+      ],
+      "h_vol_bits": 1.0595,
+      "h_predicted_n2": 1.0024,
+      "n_implied": 2.057,
+      "elapsed_s": 77.8
+    },
+    {
+      "session": "steinmetz_session_23",
+      "mouse": "Muller",
+      "date": "2017-01-08",
+      "n_neurons_total": 1268,
+      "n_neurons_selected": 180,
+      "n_trials": 151,
+      "duration_s": 377.5,
+      "n_windows": 626,
+      "mean_firing_rate": 19.17,
+      "region_info": {
+        "hierarchical_frac": 0.211,
+        "recurrent_frac": 0.261,
+        "subcortical_frac": 0.0,
+        "dominant_type": "mixed",
+        "n_areas": 6,
+        "top_areas": {
+          "PO": 64,
+          "VISam": 38,
+          "root": 31,
+          "LP": 21,
+          "DG": 16
+        }
+      },
+      "kappa": 0.4902,
+      "kappa_ci": [
+        0.4897,
+        0.4905
+      ],
+      "h_vol_bits": 1.5701,
+      "h_predicted_n2": 1.0101,
+      "n_implied": 2.554,
+      "elapsed_s": 17.2
+    },
+    {
+      "session": "steinmetz_session_24",
+      "mouse": "Muller",
+      "date": "2017-01-09",
+      "n_neurons_total": 1337,
+      "n_neurons_selected": 180,
+      "n_trials": 187,
+      "duration_s": 467.5,
+      "n_windows": 776,
+      "mean_firing_rate": 19.47,
+      "region_info": {
+        "hierarchical_frac": 0.178,
+        "recurrent_frac": 0.056,
+        "subcortical_frac": 0.061,
+        "dominant_type": "mixed",
+        "n_areas": 8,
+        "top_areas": {
+          "SCig": 108,
+          "RSP": 28,
+          "CA2": 19,
+          "CA1": 10,
+          "MRN": 6
+        }
+      },
+      "kappa": 0.4847,
+      "kappa_ci": [
+        0.484,
+        0.4854
+      ],
+      "h_vol_bits": 1.3772,
+      "h_predicted_n2": 1.0045,
+      "n_implied": 2.371,
+      "elapsed_s": 22.8
+    },
+    {
+      "session": "steinmetz_session_25",
+      "mouse": "Radnitz",
+      "date": "2017-01-08",
+      "n_neurons_total": 885,
+      "n_neurons_selected": 180,
+      "n_trials": 261,
+      "duration_s": 652.5,
+      "n_windows": 1084,
+      "mean_firing_rate": 27.7,
+      "region_info": {
+        "hierarchical_frac": 0.094,
+        "recurrent_frac": 0.139,
+        "subcortical_frac": 0.289,
+        "dominant_type": "mixed",
+        "n_areas": 10,
+        "top_areas": {
+          "SCig": 64,
+          "MRN": 49,
+          "ILA": 19,
+          "MOs": 14,
+          "TT": 13
+        }
+      },
+      "kappa": 0.4796,
+      "kappa_ci": [
+        0.4787,
+        0.4805
+      ],
+      "h_vol_bits": 0.7951,
+      "h_predicted_n2": 0.9991,
+      "n_implied": 1.796,
+      "elapsed_s": 34.8
+    },
+    {
+      "session": "steinmetz_session_26",
+      "mouse": "Radnitz",
+      "date": "2017-01-09",
+      "n_neurons_total": 1056,
+      "n_neurons_selected": 180,
+      "n_trials": 178,
+      "duration_s": 445.0,
+      "n_windows": 738,
+      "mean_firing_rate": 26.12,
+      "region_info": {
+        "hierarchical_frac": 0.033,
+        "recurrent_frac": 0.0,
+        "subcortical_frac": 0.494,
+        "dominant_type": "subcortical",
+        "n_areas": 5,
+        "top_areas": {
+          "MRN": 89,
+          "SCig": 75,
+          "root": 10,
+          "VISp": 5,
+          "MOs": 1
+        }
+      },
+      "kappa": 0.4752,
+      "kappa_ci": [
+        0.474,
+        0.4763
+      ],
+      "h_vol_bits": 0.4357,
+      "h_predicted_n2": 0.9946,
+      "n_implied": 1.438,
+      "elapsed_s": 22.0
+    },
+    {
+      "session": "steinmetz_session_27",
+      "mouse": "Radnitz",
+      "date": "2017-01-10",
+      "n_neurons_total": 563,
+      "n_neurons_selected": 180,
+      "n_trials": 253,
+      "duration_s": 632.5,
+      "n_windows": 1051,
+      "mean_firing_rate": 25.75,
+      "region_info": {
+        "hierarchical_frac": 0.261,
+        "recurrent_frac": 0.283,
+        "subcortical_frac": 0.0,
+        "dominant_type": "mixed",
+        "n_areas": 11,
+        "top_areas": {
+          "PO": 52,
+          "ACB": 29,
+          "VISam": 28,
+          "LP": 18,
+          "LD": 16
+        }
+      },
+      "kappa": 0.4886,
+      "kappa_ci": [
+        0.4882,
+        0.4891
+      ],
+      "h_vol_bits": 1.1346,
+      "h_predicted_n2": 1.0085,
+      "n_implied": 2.125,
+      "elapsed_s": 34.8
+    },
+    {
+      "session": "steinmetz_session_28",
+      "mouse": "Radnitz",
+      "date": "2017-01-11",
+      "n_neurons_total": 549,
+      "n_neurons_selected": 180,
+      "n_trials": 142,
+      "duration_s": 355.0,
+      "n_windows": 588,
+      "mean_firing_rate": 47.24,
+      "region_info": {
+        "hierarchical_frac": 0.117,
+        "recurrent_frac": 0.161,
+        "subcortical_frac": 0.333,
+        "dominant_type": "mixed",
+        "n_areas": 11,
+        "top_areas": {
+          "MRN": 51,
+          "SCig": 43,
+          "APN": 26,
+          "RSP": 15,
+          "CA1": 9
+        }
+      },
+      "kappa": 0.4772,
+      "kappa_ci": [
+        0.4762,
+        0.4782
+      ],
+      "h_vol_bits": 0.4637,
+      "h_predicted_n2": 0.9966,
+      "n_implied": 1.465,
+      "elapsed_s": 14.7
+    },
+    {
+      "session": "steinmetz_session_29",
+      "mouse": "Radnitz",
+      "date": "2017-01-12",
+      "n_neurons_total": 750,
+      "n_neurons_selected": 180,
+      "n_trials": 128,
+      "duration_s": 320.0,
+      "n_windows": 530,
+      "mean_firing_rate": 30.14,
+      "region_info": {
+        "hierarchical_frac": 0.522,
+        "recurrent_frac": 0.0,
+        "subcortical_frac": 0.478,
+        "dominant_type": "hierarchical",
+        "n_areas": 3,
+        "top_areas": {
+          "CP": 86,
+          "MOp": 51,
+          "SSp": 43
+        }
+      },
+      "kappa": 0.485,
+      "kappa_ci": [
+        0.4845,
+        0.4855
+      ],
+      "h_vol_bits": 1.0693,
+      "h_predicted_n2": 1.0047,
+      "n_implied": 2.064,
+      "elapsed_s": 13.3
+    },
+    {
+      "session": "steinmetz_session_3",
+      "mouse": "Cori",
+      "date": "2016-12-18",
+      "n_neurons_total": 619,
+      "n_neurons_selected": 180,
+      "n_trials": 228,
+      "duration_s": 570.0,
+      "n_windows": 947,
+      "mean_firing_rate": 41.71,
+      "region_info": {
+        "hierarchical_frac": 0.211,
+        "recurrent_frac": 0.117,
+        "subcortical_frac": 0.122,
+        "dominant_type": "mixed",
+        "n_areas": 11,
+        "top_areas": {
+          "MG": 69,
+          "VISam": 27,
+          "MRN": 22,
+          "NB": 13,
+          "VISp": 11
+        }
+      },
+      "kappa": 0.4908,
+      "kappa_ci": [
+        0.4904,
+        0.4911
+      ],
+      "h_vol_bits": 1.2522,
+      "h_predicted_n2": 1.0107,
+      "n_implied": 2.239,
+      "elapsed_s": 28.4
+    },
+    {
+      "session": "steinmetz_session_30",
+      "mouse": "Richards",
+      "date": "2017-10-29",
+      "n_neurons_total": 942,
+      "n_neurons_selected": 180,
+      "n_trials": 143,
+      "duration_s": 357.5,
+      "n_windows": 592,
+      "mean_firing_rate": 21.01,
+      "region_info": {
+        "hierarchical_frac": 0.067,
+        "recurrent_frac": 0.761,
+        "subcortical_frac": 0.022,
+        "dominant_type": "recurrent",
+        "n_areas": 14,
+        "top_areas": {
+          "VPM": 43,
+          "MD": 28,
+          "SUB": 24,
+          "PO": 23,
+          "DG": 20
+        }
+      },
+      "kappa": 0.4893,
+      "kappa_ci": [
+        0.4889,
+        0.4897
+      ],
+      "h_vol_bits": 1.2479,
+      "h_predicted_n2": 1.0092,
+      "n_implied": 2.237,
+      "elapsed_s": 15.9
+    },
+    {
+      "session": "steinmetz_session_31",
+      "mouse": "Richards",
+      "date": "2017-10-30",
+      "n_neurons_total": 977,
+      "n_neurons_selected": 180,
+      "n_trials": 237,
+      "duration_s": 592.5,
+      "n_windows": 984,
+      "mean_firing_rate": 30.48,
+      "region_info": {
+        "hierarchical_frac": 0.183,
+        "recurrent_frac": 0.15,
+        "subcortical_frac": 0.489,
+        "dominant_type": "subcortical",
+        "n_areas": 8,
+        "top_areas": {
+          "SNr": 79,
+          "MOs": 33,
+          "TH": 29,
+          "ORB": 19,
+          "SCm": 9
+        }
+      },
+      "kappa": 0.4855,
+      "kappa_ci": [
+        0.4849,
+        0.4861
+      ],
+      "h_vol_bits": 0.8013,
+      "h_predicted_n2": 1.0052,
+      "n_implied": 1.797,
+      "elapsed_s": 25.1
+    },
+    {
+      "session": "steinmetz_session_32",
+      "mouse": "Richards",
+      "date": "2017-10-31",
+      "n_neurons_total": 522,
+      "n_neurons_selected": 180,
+      "n_trials": 260,
+      "duration_s": 650.0,
+      "n_windows": 1080,
+      "mean_firing_rate": 17.07,
+      "region_info": {
+        "hierarchical_frac": 0.294,
+        "recurrent_frac": 0.211,
+        "subcortical_frac": 0.372,
+        "dominant_type": "mixed",
+        "n_areas": 9,
+        "top_areas": {
+          "ORB": 38,
+          "MOs": 30,
+          "SCs": 29,
+          "SCm": 29,
+          "RSP": 23
+        }
+      },
+      "kappa": 0.4842,
+      "kappa_ci": [
+        0.4835,
+        0.485
+      ],
+      "h_vol_bits": 0.9046,
+      "h_predicted_n2": 1.0039,
+      "n_implied": 1.901,
+      "elapsed_s": 38.4
+    },
+    {
+      "session": "steinmetz_session_33",
+      "mouse": "Richards",
+      "date": "2017-11-01",
+      "n_neurons_total": 613,
+      "n_neurons_selected": 180,
+      "n_trials": 191,
+      "duration_s": 477.5,
+      "n_windows": 792,
+      "mean_firing_rate": 33.54,
+      "region_info": {
+        "hierarchical_frac": 0.0,
+        "recurrent_frac": 0.228,
+        "subcortical_frac": 0.744,
+        "dominant_type": "subcortical",
+        "n_areas": 9,
+        "top_areas": {
+          "CP": 93,
+          "ZI": 30,
+          "LGd": 24,
+          "VPM": 13,
+          "SNr": 11
+        }
+      },
+      "kappa": 0.4818,
+      "kappa_ci": [
+        0.481,
+        0.4825
+      ],
+      "h_vol_bits": 0.6251,
+      "h_predicted_n2": 1.0014,
+      "n_implied": 1.624,
+      "elapsed_s": 25.2
+    },
+    {
+      "session": "steinmetz_session_34",
+      "mouse": "Richards",
+      "date": "2017-11-02",
+      "n_neurons_total": 781,
+      "n_neurons_selected": 180,
+      "n_trials": 296,
+      "duration_s": 740.0,
+      "n_windows": 1230,
+      "mean_firing_rate": 23.48,
+      "region_info": {
+        "hierarchical_frac": 0.0,
+        "recurrent_frac": 0.056,
+        "subcortical_frac": 0.217,
+        "dominant_type": "mixed",
+        "n_areas": 7,
+        "top_areas": {
+          "RT": 57,
+          "MB": 39,
+          "root": 23,
+          "COA": 21,
+          "BMA": 17
+        }
+      },
+      "kappa": 0.4859,
+      "kappa_ci": [
+        0.4854,
+        0.4864
+      ],
+      "h_vol_bits": 0.779,
+      "h_predicted_n2": 1.0057,
+      "n_implied": 1.775,
+      "elapsed_s": 46.5
+    },
+    {
+      "session": "steinmetz_session_35",
+      "mouse": "Tatum",
+      "date": "2017-12-06",
+      "n_neurons_total": 795,
+      "n_neurons_selected": 180,
+      "n_trials": 311,
+      "duration_s": 777.5,
+      "n_windows": 1292,
+      "mean_firing_rate": 33.33,
+      "region_info": {
+        "hierarchical_frac": 0.189,
+        "recurrent_frac": 0.478,
+        "subcortical_frac": 0.244,
+        "dominant_type": "recurrent",
+        "n_areas": 11,
+        "top_areas": {
+          "MD": 52,
+          "LS": 43,
+          "VISam": 17,
+          "RSP": 16,
+          "TH": 16
+        }
+      },
+      "kappa": 0.4913,
+      "kappa_ci": [
+        0.491,
+        0.4916
+      ],
+      "h_vol_bits": 1.8503,
+      "h_predicted_n2": 1.0112,
+      "n_implied": 2.83,
+      "elapsed_s": 49.4
+    },
+    {
+      "session": "steinmetz_session_36",
+      "mouse": "Tatum",
+      "date": "2017-12-07",
+      "n_neurons_total": 680,
+      "n_neurons_selected": 180,
+      "n_trials": 258,
+      "duration_s": 645.0,
+      "n_windows": 1072,
+      "mean_firing_rate": 31.76,
+      "region_info": {
+        "hierarchical_frac": 0.072,
+        "recurrent_frac": 0.022,
+        "subcortical_frac": 0.661,
+        "dominant_type": "subcortical",
+        "n_areas": 8,
+        "top_areas": {
+          "MRN": 82,
+          "SCm": 33,
+          "CA": 23,
+          "root": 21,
+          "VISam": 12
+        }
+      },
+      "kappa": 0.4835,
+      "kappa_ci": [
+        0.4828,
+        0.4842
+      ],
+      "h_vol_bits": 0.8418,
+      "h_predicted_n2": 1.0032,
+      "n_implied": 1.839,
+      "elapsed_s": 36.7
+    },
+    {
+      "session": "steinmetz_session_37",
+      "mouse": "Tatum",
+      "date": "2017-12-08",
+      "n_neurons_total": 1055,
+      "n_neurons_selected": 180,
+      "n_trials": 181,
+      "duration_s": 452.5,
+      "n_windows": 751,
+      "mean_firing_rate": 33.33,
+      "region_info": {
+        "hierarchical_frac": 0.15,
+        "recurrent_frac": 0.044,
+        "subcortical_frac": 0.594,
+        "dominant_type": "subcortical",
+        "n_areas": 7,
+        "top_areas": {
+          "MB": 79,
+          "PAG": 34,
+          "SCm": 28,
+          "MOs": 15,
+          "VISam": 12
+        }
+      },
+      "kappa": 0.4771,
+      "kappa_ci": [
+        0.4763,
+        0.478
+      ],
+      "h_vol_bits": 0.4798,
+      "h_predicted_n2": 0.9965,
+      "n_implied": 1.481,
+      "elapsed_s": 23.9
+    },
+    {
+      "session": "steinmetz_session_38",
+      "mouse": "Tatum",
+      "date": "2017-12-09",
+      "n_neurons_total": 805,
+      "n_neurons_selected": 180,
+      "n_trials": 199,
+      "duration_s": 497.5,
+      "n_windows": 826,
+      "mean_firing_rate": 42.88,
+      "region_info": {
+        "hierarchical_frac": 0.0,
+        "recurrent_frac": 0.222,
+        "subcortical_frac": 0.367,
+        "dominant_type": "mixed",
+        "n_areas": 6,
+        "top_areas": {
+          "root": 64,
+          "GPe": 44,
+          "LGd": 26,
+          "SNr": 22,
+          "CA3": 14
+        }
+      },
+      "kappa": 0.4893,
+      "kappa_ci": [
+        0.4888,
+        0.4898
+      ],
+      "h_vol_bits": 1.3155,
+      "h_predicted_n2": 1.0092,
+      "n_implied": 2.304,
+      "elapsed_s": 25.9
+    },
+    {
+      "session": "steinmetz_session_39",
+      "mouse": "Theiler",
+      "date": "2017-10-11",
+      "n_neurons_total": 1348,
+      "n_neurons_selected": 180,
+      "n_trials": 343,
+      "duration_s": 857.5,
+      "n_windows": 1426,
+      "mean_firing_rate": 20.56,
+      "region_info": {
+        "hierarchical_frac": 0.172,
+        "recurrent_frac": 0.389,
+        "subcortical_frac": 0.0,
+        "dominant_type": "mixed",
+        "n_areas": 11,
+        "top_areas": {
+          "root": 79,
+          "SUB": 24,
+          "LP": 21,
+          "VISam": 14,
+          "ACA": 14
+        }
+      },
+      "kappa": 0.4894,
+      "kappa_ci": [
+        0.4891,
+        0.4898
+      ],
+      "h_vol_bits": 1.1955,
+      "h_predicted_n2": 1.0093,
+      "n_implied": 2.184,
+      "elapsed_s": 58.6
+    },
+    {
+      "session": "steinmetz_session_4",
+      "mouse": "Forssmann",
+      "date": "2017-11-01",
+      "n_neurons_total": 1769,
+      "n_neurons_selected": 180,
+      "n_trials": 249,
+      "duration_s": 622.5,
+      "n_windows": 1034,
+      "mean_firing_rate": 23.31,
+      "region_info": {
+        "hierarchical_frac": 0.1,
+        "recurrent_frac": 0.4,
+        "subcortical_frac": 0.222,
+        "dominant_type": "mixed",
+        "n_areas": 11,
+        "top_areas": {
+          "TH": 42,
+          "LSr": 40,
+          "VPL": 29,
+          "DG": 18,
+          "ACA": 15
+        }
+      },
+      "kappa": 0.4832,
+      "kappa_ci": [
+        0.4826,
+        0.4838
+      ],
+      "h_vol_bits": 0.6121,
+      "h_predicted_n2": 1.0029,
+      "n_implied": 1.61,
+      "elapsed_s": 38.0
+    },
+    {
+      "session": "steinmetz_session_5",
+      "mouse": "Forssmann",
+      "date": "2017-11-02",
+      "n_neurons_total": 1077,
+      "n_neurons_selected": 180,
+      "n_trials": 254,
+      "duration_s": 635.0,
+      "n_windows": 1055,
+      "mean_firing_rate": 28.97,
+      "region_info": {
+        "hierarchical_frac": 0.0,
+        "recurrent_frac": 0.128,
+        "subcortical_frac": 0.0,
+        "dominant_type": "mixed",
+        "n_areas": 5,
+        "top_areas": {
+          "root": 148,
+          "SUB": 21,
+          "OLF": 5,
+          "VISa": 4,
+          "CA1": 2
+        }
+      },
+      "kappa": 0.4823,
+      "kappa_ci": [
+        0.4816,
+        0.4831
+      ],
+      "h_vol_bits": 0.5977,
+      "h_predicted_n2": 1.002,
+      "n_implied": 1.597,
+      "elapsed_s": 35.6
+    },
+    {
+      "session": "steinmetz_session_6",
+      "mouse": "Forssmann",
+      "date": "2017-11-04",
+      "n_neurons_total": 1169,
+      "n_neurons_selected": 180,
+      "n_trials": 290,
+      "duration_s": 725.0,
+      "n_windows": 1205,
+      "mean_firing_rate": 15.53,
+      "region_info": {
+        "hierarchical_frac": 0.0,
+        "recurrent_frac": 0.067,
+        "subcortical_frac": 0.0,
+        "dominant_type": "mixed",
+        "n_areas": 4,
+        "top_areas": {
+          "root": 127,
+          "AUD": 25,
+          "TH": 16,
+          "CA1": 12
+        }
+      },
+      "kappa": 0.4875,
+      "kappa_ci": [
+        0.4869,
+        0.488
+      ],
+      "h_vol_bits": 0.9726,
+      "h_predicted_n2": 1.0073,
+      "n_implied": 1.966,
+      "elapsed_s": 40.5
+    },
+    {
+      "session": "steinmetz_session_7",
+      "mouse": "Forssmann",
+      "date": "2017-11-05",
+      "n_neurons_total": 584,
+      "n_neurons_selected": 180,
+      "n_trials": 252,
+      "duration_s": 630.0,
+      "n_windows": 1047,
+      "mean_firing_rate": 24.02,
+      "region_info": {
+        "hierarchical_frac": 0.033,
+        "recurrent_frac": 0.522,
+        "subcortical_frac": 0.078,
+        "dominant_type": "recurrent",
+        "n_areas": 8,
+        "top_areas": {
+          "VPL": 45,
+          "root": 40,
+          "LD": 25,
+          "PIR": 24,
+          "CA3": 24
+        }
+      },
+      "kappa": 0.4867,
+      "kappa_ci": [
+        0.4861,
+        0.4873
+      ],
+      "h_vol_bits": 1.0744,
+      "h_predicted_n2": 1.0065,
+      "n_implied": 2.067,
+      "elapsed_s": 35.4
+    },
+    {
+      "session": "steinmetz_session_8",
+      "mouse": "Hench",
+      "date": "2017-06-15",
+      "n_neurons_total": 1156,
+      "n_neurons_selected": 180,
+      "n_trials": 250,
+      "duration_s": 625.0,
+      "n_windows": 1038,
+      "mean_firing_rate": 33.44,
+      "region_info": {
+        "hierarchical_frac": 0.061,
+        "recurrent_frac": 0.439,
+        "subcortical_frac": 0.0,
+        "dominant_type": "recurrent",
+        "n_areas": 14,
+        "top_areas": {
+          "PO": 82,
+          "PL": 29,
+          "LP": 15,
+          "ILA": 13,
+          "LD": 10
+        }
+      },
+      "kappa": 0.4898,
+      "kappa_ci": [
+        0.4894,
+        0.4901
+      ],
+      "h_vol_bits": 1.3214,
+      "h_predicted_n2": 1.0097,
+      "n_implied": 2.309,
+      "elapsed_s": 34.0
+    },
+    {
+      "session": "steinmetz_session_9",
+      "mouse": "Hench",
+      "date": "2017-06-16",
+      "n_neurons_total": 788,
+      "n_neurons_selected": 180,
+      "n_trials": 372,
+      "duration_s": 930.0,
+      "n_windows": 1547,
+      "mean_firing_rate": 32.94,
+      "region_info": {
+        "hierarchical_frac": 0.078,
+        "recurrent_frac": 0.728,
+        "subcortical_frac": 0.044,
+        "dominant_type": "recurrent",
+        "n_areas": 12,
+        "top_areas": {
+          "VPL": 55,
+          "LD": 44,
+          "ORBm": 20,
+          "CA3": 13,
+          "CA1": 10
+        }
+      },
+      "kappa": 0.4891,
+      "kappa_ci": [
+        0.4887,
+        0.4895
+      ],
+      "h_vol_bits": 1.0195,
+      "h_predicted_n2": 1.009,
+      "n_implied": 2.01,
+      "elapsed_s": 68.7
+    }
+  ]
+}
